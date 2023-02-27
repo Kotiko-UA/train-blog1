@@ -1,0 +1,102 @@
+:root {
+    --title-color: #000000;
+    --link-color: #FF6464;
+    --main-text-col: #21243D;
+}
+
+/* navigation */
+.nav-link {
+    color: var(--title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--link-color)
+}
+
+.open {
+    color: var(--link-color);
+}
+
+/* Hero */
+.hero {
+    color: var(--title-color);
+}
+
+.hero-text {
+    color: var(--main-text-col);
+}
+
+.hero-link {
+    background-color: var(--link-color);
+    color: #ffffff;
+
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    background-color: #ffffff;
+    color: var(--link-color);
+}
+
+/* recent post  */
+.recpost {
+    color: #000000;
+    background-color: #EDF7FA;
+}
+
+.recpost-list {
+    background-color: #ffffff;
+}
+
+.recpost-link {
+    color: #00A8CC;
+}
+
+.recpost-link:hover,
+.recpost-link:focus {
+    color: var(--link-color);
+}
+
+.recpost-title-exm {
+    color: #0A2A42;
+}
+
+.recpost-data {
+    color: #636B78;
+}
+
+.recpost-text {
+    color: var(--main-text-col);
+}
+
+/* future title */
+.future-title {
+    color: #000000;
+}
+
+.future-link {
+    color: #00A8CC;
+}
+
+.future-exm-title {
+    color: #0A2A42;
+}
+
+.future-data {
+    color: #ffffff;
+    background-color: #2A326F;
+}
+
+.future-exm-desk {
+    color: #8695A4;
+}
+
+.future-text {
+    color: var(--main-text-col);
+}
+
+/* footer */
+.footer-copy {
+    color: #678398;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your own personal site</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -12,42 +13,45 @@
       <a href="./index.html"><img src="./images/Left.svg" alt="logo" /></a>
       <nav>
         <ul>
-          <li><a href="./page2.html">Blog</a></li>
-          <li><a href="./page3.html">Work</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="./page2.html" class="nav-link">Blog</a></li>
+          <li><a href="./page3.html" class="nav-link">Work</a></li>
+          <li><a href="" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- hero -->
       <section>
-        <h1>Hi, I’m John! Creative Technologist</h1>
+        <h1 class="hero">
+          Hi, I’m John! <br />
+          Creative Technologist
+        </h1>
         <img src="./images/myfoto.jpg" width="328" alt="My foto" />
-        <p>
+        <p class="hero-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <a href="">Check my Work</a>
+        <a href="" class="hero-link">Check my Work</a>
       </section>
       <!-- Recent Posts -->
-      <article>
-        <h2>Recent Posts</h2>
-        <a href="">View all</a>
-        <ul>
+      <article class="recpost">
+        <h2 class="recpost-title">Recent Posts</h2>
+        <a href="" class="recpost-link">View all</a>
+        <ul class="recpost-list">
           <li>
-            <h3>Post Title</h3>
-            <p>12 Feb 21 | Design System</p>
-            <p>
+            <h3 class="recpost-title-exm">Post Title</h3>
+            <p class="recpost-data">12 Feb 21 | Design System</p>
+            <p class="recpost-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </li>
           <li>
-            <h3>Post Title</h3>
-            <p>12 Feb 21 | Design System</p>
-            <p>
+            <h3 class="recpost-title-exm">Post Title</h3>
+            <p class="recpost-data">12 Feb 21 | Design System</p>
+            <p class="recpost-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
@@ -57,15 +61,15 @@
       </article>
       <!-- Featured Work-->
       <section>
-        <h2>Featured Work</h2>
-        <a href="">View all</a>
+        <h2 class="future-title">Featured Work</h2>
+        <a href="" class="future-link">View all</a>
         <ul>
           <li>
             <img src="./images/img1.jpg" width="275" alt="vsc" />
-            <h3>Designing Dashboards</h3>
-            <span>2020</span>
-            <p>Dashboard</p>
-            <p>
+            <h3 class="future-exm-title">Designing Dashboards</h3>
+            <span class="future-data">2020</span>
+            <p class="future-exm-desk">Dashboard</p>
+            <p class="future-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
@@ -73,10 +77,10 @@
           </li>
           <li>
             <img src="./images/img2.jpg" width="275" alt="img girl" />
-            <h3>Vibrant Portraits</h3>
-            <span>2018</span>
-            <p>Illustration</p>
-            <p>
+            <h3 class="future-exm-title">Vibrant Portraits</h3>
+            <span class="future-data">2018</span>
+            <p class="future-exm-desk">Illustration</p>
+            <p class="future-text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
@@ -116,7 +120,7 @@
           /></a>
         </li>
       </ul>
-      <p>&#169; 2022 Your Name. All rights reserved.</p>
+      <p class="footer-copy">&#169; 2022 Your Name. All rights reserved.</p>
     </footer>
   </body>
 </html>
