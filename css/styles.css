@@ -2,6 +2,11 @@
     --title-color: #000000;
     --link-color: #FF6464;
     --main-text-col: #21243D;
+    --title-color: #0A2A42;
+    --data-color: #636B78;
+    --work-data-col: #2A326F;
+
+
 }
 
 /* navigation */
@@ -59,11 +64,11 @@
 }
 
 .recpost-title-exm {
-    color: #0A2A42;
+    color: var(--title-color);
 }
 
 .recpost-data {
-    color: #636B78;
+    color: var(--data-color);
 }
 
 .recpost-text {
@@ -80,12 +85,12 @@
 }
 
 .future-exm-title {
-    color: #0A2A42;
+    color: var(--title-color);
 }
 
 .future-data {
     color: #ffffff;
-    background-color: #2A326F;
+    background-color: var(--work-data-col);
 }
 
 .future-exm-desk {
@@ -100,3 +105,5 @@
 .footer-copy {
     color: #678398;
 }
+
+/* work zone */
