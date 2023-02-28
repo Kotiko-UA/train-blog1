@@ -1,5 +1,4 @@
 :root {
-    --title-color: #000000;
     --link-color: #FF6464;
     --main-text-col: #21243D;
     --title-color: #0A2A42;
@@ -80,8 +79,13 @@
     color: #000000;
 }
 
-.future-link {
+.c-link {
     color: #00A8CC;
+}
+
+.future-link:hover,
+.future-link:focus {
+    color: var(--link-color);
 }
 
 .future-exm-title {
