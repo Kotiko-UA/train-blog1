@@ -76,19 +76,19 @@ h4 {
 
 .hero-text {}
 
-.hero-button {
+.button {
     font-family: 'Inter',
         'sans-serif';
     font-style: normal;
     font-weight: 600;
     background-color: var(--link-color);
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
 
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.button:hover,
+.button:focus {
     background-color: #ffffff;
     color: var(--link-color);
 }
