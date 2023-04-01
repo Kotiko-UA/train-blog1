@@ -192,3 +192,57 @@ h4 {
 }
 
 /* work zone */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.form-label {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    transition: 200ms linear;
+
+}
+
+.form-label::before {
+    content: '';
+    width: 40px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: background-color 200ms linear;
+
+}
+
+.form-label::after {
+    content: '';
+    position: absolute;
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
+    background-color: blue;
+    transition: transform 200ms linear;
+
+
+}
+
+.form-input:checked+.form-label::before {
+    background-color: greenyellow;
+}
+
+.form-input:checked+.form-label::after {
+    transform: translatex(100%);
+}
